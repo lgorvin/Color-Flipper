@@ -1,0 +1,167 @@
+body {
+  background-color: lightblue;
+}
+
+header {    
+  position: fixed;  
+  left: 0;  
+  right: 0;  
+  top: 5px;  
+  height: 30px;  
+  display: flex;  
+  align-items: center;    
+}  
+
+#colorCode {
+  text-align: center;
+  width: 500px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 2%;
+  font-size: 30px;
+  color: white;
+  background-color: black;
+}
+
+#center{
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#center h1 {
+  padding-top: 15px;
+  font-family: 'Fredoka One', cursive;
+}
+
+#btn{
+  width: 150px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 5%;
+  font-size: 30px;
+  color: black;
+  background-color: white;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+#btn:hover {
+  cursor: pointer;
+  box-shadow: 0px 2px 5px black;
+}
+
+#center2{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 200;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0px 5px 8px 2px black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Fredoka One', cursive;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px gray;
+  padding-right: 0px;
+}
+
+@media only screen and (max-width: 1686px){
+  li {
+    padding-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 1920px){
+  li {
+    padding-right: 40px;
+  }
+}
+
+@media only screen and (max-width: 753px){
+  #container{
+    width: 50%;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 753px){
+  #colorCode{
+    width: 400px;
+    height: 40px;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 753px){
+  #center h1{
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 753px){
+  #btn{
+    font-size: 25px;
+    width: 125px;
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 753px){
+  #container2{
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 570px){
+  #container{
+    width: 25%;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 570px){
+  #colorCode{
+    width: 325px;
+    height: 35px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 570px){
+  #center h1{
+    padding-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 570px){
+  #btn{
+    font-size: 20px;
+    width: 115px;
+    height: 35px;
+  }
+}
+
+@media only screen and (max-width: 570px){
+  #container2{
+    width: 25%;
+  }
+}
